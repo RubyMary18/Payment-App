@@ -17,7 +17,7 @@ a {
 /*for wrapper*/
 .wrapper {
   max-width: 1350px;
-  width: 86%;
+  width: 76.5%;
   margin: 0 auto;
 }
 
@@ -37,6 +37,99 @@ body {
   background-color: #ee4a56;
   font-family: "Roboto", sans-serif;
 }
+
+.container {
+  width: 702px;
+  height: 745px;
+  background-color: #fff;
+  border-radius: 25% 14% 25% 31% / 0% 43% 35% 18%;
+}
+
+/*main container styling starts here*/
+.main-container {
+  position: absolute;
+  top: 160px;
+  width: 100%;
+}
+
+.nav-container {
+  width: 405px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fff;
+  display: flex;
+  margin: 0 auto;
+  padding: 48px 0 34px;
+  border-radius: 15px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-indent: -999px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.icon::before {
+  font-family: "FontAwesome";
+  text-indent: 0;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 25px;
+}
+
+.home-icon::before {
+  content: "\f015";
+}
+
+.cards-icon::before {
+  content: "\f09d";
+}
+
+.photo-icon::before {
+  content: "\f24a";
+}
+
+.tax-icon::before {
+  content: "\f11c";
+}
+
+.profile-icon::before {
+  content: "\f2c0";
+}
+
+.three-vertical-dots::before {
+  content: "\f142";
+}
+
+.nav-container li {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.second-text {
+  text-align: center;
+  font-size: 14px;
+}
+
+/*red box design starts here*/
+.red-box {
+  background: linear-gradient(
+    117deg,
+    rgba(229, 68, 102, 1) 15%,
+    rgba(242, 78, 81, 1) 90%
+  );
+}
+/*red box design ends here*/
+/*main container styling ends here*/
 
 /*=================================
   main styling ends here
